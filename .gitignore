@@ -22,3 +22,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Never commit actual settings with secrets
+settings.local.json
+**/azure-*.json
+**/*-key.json
