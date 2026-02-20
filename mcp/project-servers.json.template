@@ -1,0 +1,13 @@
+{
+  "_comment": "Template for project-scoped .mcp.json files",
+  "mcpServers": {
+    "example-local-db": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "postgres-mcp-server"],
+      "env": {
+        "DATABASE_URL": "postgresql://localhost:5432/myapp"
+      }
+    }
+  }
+}

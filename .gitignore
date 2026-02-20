@@ -1,0 +1,24 @@
+# Sensitive credentials - NEVER commit these
+settings/settings.local.json
+**/secrets/
+**/.env
+**/credentials/
+**/*.key
+**/*.pem
+
+# API keys and tokens
+**/api-keys.json
+**/*-token.txt
+
+# OS-specific
+.DS_Store
+*.swp
+*~
+Thumbs.db
+
+# Backups
+*.backup
+*.bak
+
+# Logs
+*.log

@@ -1,0 +1,5 @@
+{
+  "_comment": "Copy this to ~/.claude/settings.local.json for machine-specific overrides",
+  "shell": "/bin/bash",
+  "workspaceDir": "/home/user/projects"
+}
